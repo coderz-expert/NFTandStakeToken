@@ -1,0 +1,917 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&display=swap');
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  margin: 0px;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.home_cart_main {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+}
+
+.home_cartIn {
+  width: 80%;
+  display: flex;
+  margin: 30px auto 0;
+  flex-wrap: wrap;
+}
+
+.carts_main {
+  width: 25%;
+  margin-bottom: 70px;
+}
+
+.profile_main {
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
+
+h5.profile_head {
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+p.profile_middle_one {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+p.your_nfts {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 40px;
+}
+
+.profile_middle_inside p {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.profile_img img.dark\:invert {
+  width: 170px;
+  height: 175px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.profile_bottom_main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile_middle_main {
+  width: 70%;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 15px;
+  margin: 0 auto;
+}
+
+p.profile_num {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.carts_all {
+  width: 90%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  border-radius: 24px;
+  overflow: hidden;
+  background-color: #f3f3f5;
+  transition: transform .35s ease;
+  position: relative;
+  margin: 0 auto;
+}
+
+.topcarts_image {
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
+.carts_all img.dark\:invert {
+  width: 100%;
+  height: 100%;
+  transition: transform .35s ease;
+}
+
+.nft_form_inside input[type="file"] {
+  padding-top: 8px;
+}
+
+.main_body_div {
+  background-color: #f5fafb;
+}
+
+.dark-mode .main_body_div {
+  background-color: #000;
+  color: #fff;
+}
+
+.dark-mode .main_body_div .listnft {
+  color: black;
+}
+
+body.dark-mode .depositmax_right input[type="text"] {
+  background: #292929;
+  color: white;
+}
+
+.dark-mode ul.hidden.md\:flex.gap-x-6.text-white li a {
+  color: white;
+}
+
+.flex.justify-between.items-center.h-full {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hidden li {
+  display: inline-block;
+  padding: 0 20px;
+  font-weight: 600;
+}
+
+.hidden li a {
+  text-decoration: none;
+}
+
+.btn_main {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 17%;
+}
+
+.dark_light_main {
+  width: 30%;
+}
+
+.dark_light_mode svg {
+  cursor: pointer;
+}
+
+.dark .dark_light_mode svg path {
+  fill: white;
+}
+
+.card_dark_main {
+  width: 70%;
+}
+
+.btn_main button {
+  padding: 5px 25px;
+  cursor: pointer;
+}
+
+.logo_main {
+  padding-left: 70px;
+}
+
+h2.Top_NFTs {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+
+.listnft {
+  width: 55%;
+  margin: 0 auto;
+  background: white;
+  padding: 10px 0 40px;
+  margin-bottom: 75px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 0px 0px #c4c2c285;
+}
+
+p.listnft_head {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.nft_form_inside {
+  padding-left: 30px;
+}
+
+.nft_form_inside textarea#Description {
+  width: 91%;
+}
+
+button.nft_btn {
+  margin-top: 30px;
+  width: 93%;
+  background: cadetblue;
+  border: none;
+  padding: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nft_form_inside input {
+  width: 92%;
+  height: 30px;
+  outline: none;
+  border: 2px solid darkgrey;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+.listnft_btn {
+  text-align: center;
+}
+
+.nft_form_inside h5 {
+  margin-bottom: 5px;
+}
+
+li.active {
+  border-bottom: 3px solid white;
+}
+
+.reward_main p {
+  width: 50%;
+}
+
+p.reward_two {
+  text-align: right;
+}
+
+h1.create_head {
+  text-align: center;
+  padding: 60px;
+  margin: 0;
+  background: #c4c2c2;
+  font-size: 36px;
+  color: white;
+}
+
+.create_form_one {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.createpool_main hr {
+  width: 65%;
+  margin: 80px auto;
+}
+
+.form_inside_one {
+  width: 50%;
+}
+
+.form_inside_two {
+  width: 50%;
+}
+
+.create_form_one input[type="text"] {
+  width: 96%;
+  height: 45px;
+  background: lightgrey;
+  font-size: 16px;
+  padding-left: 15px;
+  border: 0;
+}
+
+.form_inside h4 {
+  margin-top: 50px;
+}
+
+textarea#prosum {
+  width: 100%;
+  background: lightgrey;
+  font-size: 16px;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 0;
+}
+
+.start_time_main {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.start_time_main .form_inside {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.start_time_main input {
+  width: 100%;
+  padding: 15px;
+  border: 0;
+  font-size: 15px;
+  background: lightgrey;
+}
+
+.weight_main {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.weight_inside {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.weight_inside .form_inside {
+  width: 50%;
+}
+
+.weight_inside input {
+  width: 75%;
+}
+
+p.weight_desc {
+  margin-top: 50px;
+}
+
+.project_web_main {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.project_web_main p.external_head {
+  margin: 0;
+}
+
+.project_web_main p.changeval_head {
+  margin-top: 5px;
+}
+
+.project_url_main {
+  width: 85%;
+  justify-content: space-between;
+  display: flex;
+  margin: 0 auto;
+}
+
+.project_url_main .form_inside {
+  width: 48%;
+}
+
+.project_url_main input {
+  width: 91%;
+  font-size: 15px;
+  padding: 15px;
+  border: 0;
+  background: lightgrey;
+}
+
+.social_input {
+  width: 100%;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social_input_inside input {
+  width: 220px;
+  font-size: 15px;
+  padding: 15px;
+  border: 0;
+  background: lightgrey;
+}
+
+.fund_token_main {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.fund_token_main .form_inside input {
+  width: 60%;
+  font-size: 15px;
+  padding: 15px;
+  border: 0;
+  background: lightgrey;
+}
+
+.fund_token_main select.borderless {
+  width: 64%;
+  font-size: 15px;
+  padding: 15px;
+  border: 0;
+  background: lightgrey;
+}
+
+.form_btn_main {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.form_btn_main button.submit_lbp {
+  width: 60%;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 700;
+  color: hsla(252, 13%, 46%, 1);
+  background: hsl(0deg 0% 82.75%);
+  border: 0;
+  cursor: pointer;
+}
+
+.staking_main {
+  width: 100%;
+}
+
+p.staking_head {
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 65px;
+  line-height: 25px;
+}
+
+.staking_cards {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.staking_getbtn {
+  margin-top: 45px;
+}
+
+.staking_getbtn button.staking_btn {
+  opacity: 0.9;
+  background: #eee;
+  box-shadow: 4px 4px 0px 0px #ffffff44;
+  width: 185px;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  border: 0;
+  cursor: pointer;
+}
+
+.stacard_main {
+  width: 55%;
+  margin: 0 auto;
+  margin-top: 85px;
+  background: hsl(0deg 0.93% 76.25% / 21%);
+  border-radius: 25px;
+  padding: 10px;
+}
+
+button.claim_reward {
+  width: 85%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #555555;
+  background-color: #c4c2c2;
+  margin-top: 25px;
+}
+
+button.claim_reward:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.stacard_header {
+  background: #75707f;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.light-mode h4.stacard_menu_head.active {
+  border-color: black;
+}
+
+.light-mode .pool_owner {
+  background: #75707f61;
+  box-shadow: 0 0 2px 2px #75707f;
+  color: white;
+  font-weight: 500;
+}
+
+.stacard_header_right {
+  padding-top: 6px;
+}
+
+.stacard_middle {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.stacard_middle_one {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 0;
+}
+
+.stacard_middle hr {
+  margin-bottom: 17px;
+  border-color: darkgrey;
+}
+
+.pool_owner {
+  padding: 16px;
+  max-width: 300px;
+  border-radius: 5px;
+  margin: 35px auto 50px;
+  background: #ffffff11;
+  box-shadow: 0 0 2px 2px #ffffff22;
+  font-size: 18px;
+}
+
+.stacard_menu {
+  width: 22%;
+}
+
+.reward_main {
+  padding-bottom: 45px;
+  font-weight: 400;
+}
+
+table.reward_inside {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.reward_main th {
+  width: 50%;
+  padding-bottom: 25px;
+}
+
+.token-amount-form input[type="text"] {
+  width: 82%;
+  margin-top: 15px;
+  font-size: 17px;
+  padding: 35px 10px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #c4c2c2;
+}
+
+h4.token-input-label {
+  font-weight: 400;
+  text-align: left;
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.token-amount-form p.Token_approval button {
+  width: 85%;
+  margin-top: 15px;
+  padding: 13px;
+  background-color: #c4c2c270;
+  border: 1px solid #a89999;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.token-amount-form p.Token_approval button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+p.reward_one {
+  text-align: left;
+}
+
+.reward_tablebody td {
+  padding-bottom: 20px;
+}
+
+.stacard_menu .active {
+  border-bottom: 3px solid white;
+  padding-bottom: 6px;
+}
+
+h4.stacard_menu_head {
+  cursor: pointer;
+}
+
+button.withdraw_btn {
+  box-shadow: 4px 4px 0px 0px #75717f;
+  background-color: #75757544;
+  color: #75707f;
+  cursor: default;
+  border: 0;
+  padding: 20px 60px;
+  font-size: 16px;
+  font-weight: 800;
+  border-radius: 10px;
+}
+
+.withdraw_btn_main {
+  padding: 30px 0;
+}
+
+table.deposit_table {
+  width: 90%;
+  text-align: start;
+  margin: 0 auto;
+}
+
+tr.reward_tablebodytr td {
+  padding-bottom: 20px;
+}
+
+td.staked_token {
+  text-align: end;
+}
+
+.depositmax_val {
+  width: 90%;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  background-color: transparent;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0 auto;
+  padding: 12px 25px;
+}
+
+.depositmax_left {
+  width: 50%;
+  display: inline-block;
+  text-align: left;
+}
+
+.depositmax_right {
+  width: 50%;
+  display: inline-block;
+  text-align: end;
+}
+
+.depositmax_right span {
+  margin: 15px 5px;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  font-size: 12px;
+  padding: 10px 16px;
+  color: #757575;
+  cursor: pointer;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.depositmax_right input[type="text"] {
+  border: 0;
+  background: #eaeeef;
+  text-align: end;
+  font-size: 20px;
+  width: 50%;
+  vertical-align: sub;
+  outline: none;
+  margin-right: 10px;
+}
+
+p.deposit_balance {
+  width: 90%;
+  text-align: end;
+  margin: 10px auto;
+  font-size: 12px;
+}
+
+.deposit_btn_inside button {
+  background-color: #75757544;
+  color: #a19090;
+  cursor: default;
+  box-shadow: 4px 4px 0px 0px #ffffff11;
+  border: 0;
+  width: 90%;
+  padding: 20px;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.deposit_btn_main {
+  margin-top: 40px;
+}
+
+.deposit_bottom {
+  padding-bottom: 30px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.deposit_bottom_left {
+  display: inline-block;
+  width: 50%;
+  text-align: left;
+}
+
+.deposit_bottom_right {
+  display: inline-block;
+  width: 50%;
+  text-align: right;
+}
+
+.deposit_bottom p a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main_body_div ul {
+  padding: 15px 50px;
+  height: auto;
+  max-height: 80px;
+  background-color: #c4c2c2;
+  border-radius: 40px;
+  box-sizing: border-box;
+  margin-left: 100px;
+}
+
+.light-mode .main_body_div ul li a {
+  color: black;
+}
+
+.stacard_header_left {
+  width: 50%;
+  text-align: left;
+  padding-left: 25px;
+  box-sizing: border-box;
+}
+
+.stacard_header_right {
+  width: 50%;
+  text-align: right;
+  padding-right: 25px;
+  box-sizing: border-box;
+}
+
+.topNFT_desc {
+  padding: 20px;
+  background-color: lightgrey;
+}
+
+.carts_main a {
+  text-decoration: none;
+  color: black;
+}
+
+strong.text-xl {
+  font-size: 18px;
+}
+
+.carts_all:hover {
+  transform: scale(1.03);
+}
+
+.showData_main {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: #d6d6d6;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.showData_img {
+  width: 50%;
+}
+
+.showData_desc {
+  width: 50%;
+  padding: 5px 25px;
+}
+
+.showData_img img {
+  width: 100%;
+  border-radius: 20px;
+  height: auto;
+  max-height: 600px;
+}
+
+.showData_details {
+  padding: 10px 0;
+}
+
+span.showData_head {
+  font-weight: 600;
+}
+
+.tokenid_main {
+  padding-bottom: 50px;
+}
+
+button.enableEthereumButton.bg-blue-500.hover\:bg-blue-700.text-white.font-bold.py-2.px-4.rounded.text-sm {
+  padding: 16px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #211858a8;
+  text-align: center;
+  cursor: pointer;
+  transition: opacity .35s ease;
+  border-radius: 16px;
+  border: 0;
+}
+
+button.enableEthereumButton.bg-blue-500.hover\:bg-blue-700.text-white.font-bold.py-2.px-4.rounded.text-sm:hover {
+  background-color: #211858;
+}
+
+.card {
+  color: grey;
+}
+
+.card h3 {
+  margin: 0;
+}
+
+.nft_form_inside p {
+  margin: 7px 0 30px;
+}
+
+.nft_form_inside label {
+  width: 100%;
+  font-weight: 500;
+}
+
+.nft_form_inside p textarea#description {
+  width: 91%;
+  outline: none;
+  border: 2px solid darkgrey;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+button#list-button {
+  width: 30%;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #c4c2c2;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  transition: opacity .35s ease;
+  border-radius: 7px;
+  border: 0;
+}
+
+button#list-button:hover {
+  background-color: #000;
+}
+
+.topNFT_desc.profile_desc {
+  text-align: left;
+}
+
+.no_nft_msg {
+  width: 100%;
+  text-align: center;
+}
+
+.reward-rate {
+  width: 85%;
+  display: flex;
+  margin: 0 auto;
+}
